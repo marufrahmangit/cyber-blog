@@ -532,9 +532,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+Maruf Rahman - marufrahman.work@gmail.com
 
-Project Link: [https://github.com/yourusername/cyber-blog](https://github.com/yourusername/cyber-blog)
+Project Link: [https://github.com/yourusername/cyber-blog](https://github.com/marufrahmangit/cyber-blog)
 
 ---
 
