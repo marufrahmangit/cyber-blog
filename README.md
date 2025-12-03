@@ -1,6 +1,6 @@
-# 🛡️ CyberSec Blog
+# 🛡️ CyberOp Notes
 
-A modern, full-stack cybersecurity blog platform featuring interactive 3D visuals, rich text editing, and a comprehensive admin dashboard. Built with Next.js, Node.js, Express, MySQL, and Three.js.
+A modern, full-stack cybersecurity and system operations blog platform featuring interactive 3D visuals, rich text editing, and a comprehensive admin dashboard. Built with Next.js, Node.js, Express, MySQL, and Three.js.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)
