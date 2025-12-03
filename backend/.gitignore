@@ -1,0 +1,62 @@
+# ==============================================
+# BACKEND .gitignore (backend/.gitignore)
+# ==============================================
+
+# Environment variables - CRITICAL!
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output/
+
+# Build files
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database backups (keep migrations)
+*.sql.backup
+backups/
+
+# Uploaded files (if you add file upload feature)
+uploads/
+public/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
