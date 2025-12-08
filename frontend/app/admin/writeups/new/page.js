@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { createWriteup, verifyToken } from '@/lib/api';
-import Editor from '@/components/Editor';
+import EnhancedEditor from '@/components/EnhancedEditor'; // CHANGED FROM Editor
 import { ArrowLeft, Save } from 'lucide-react';
 import Link from 'next/link';
 
@@ -115,10 +115,15 @@ export default function NewWriteupPage() {
             />
           </div>
 
-          {/* Content Editor */}
+          {/* Content Editor - NOW WITH ENHANCED EDITOR */}
           <div>
             <label className="block text-gray-300 mb-2">Content</label>
-            <Editor
+            <div className="bg-gray-900 rounded-lg p-4 mb-2">
+              <p className="text-sm text-gray-400 mb-2">
+                💡 <strong>Tips:</strong> You can paste markdown directly, upload images, or use the rich text editor!
+              </p>
+            </div>
+            <EnhancedEditor
               content={formData.content}
               onChange={(content) => setFormData({ ...formData, content })}
             />

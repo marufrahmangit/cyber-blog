@@ -48,8 +48,8 @@ temp/
 backups/
 
 # Uploaded files (if you add file upload feature)
-uploads/
-public/uploads/
+uploads/*
+!uploads/.gitignore
 
 # OS files
 .DS_Store
